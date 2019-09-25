@@ -6,45 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/day1Checkbox"
-        android:layout_width="wrap_content"
+        android:id="@+id/trackingCheckBox"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/monday"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:text="@string/location_tracker_checkbox"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/day2Checkbox"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/dayReminderHeader"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        android:gravity="center"
+        android:text="@string/days_reminder_prompt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/trackingCheckBox" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day1Button"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:text="@string/monday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dayReminderHeader"
+        app:layout_constraintWidth_default="wrap" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day2Button"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:checkable="true"
         android:text="@string/tuesday"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/day1Checkbox" />
+        app:layout_constraintTop_toBottomOf="@id/day1Button"
+        app:layout_constraintWidth_default="wrap" />
 
-    <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/day3Checkbox"
-        android:layout_width="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day3Button"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkable="true"
         android:text="@string/wednesday"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/day2Checkbox" />
+        app:layout_constraintTop_toBottomOf="@id/day2Button"
+        app:layout_constraintWidth_default="wrap" />
 
-    <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/day4Checkbox"
-        android:layout_width="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day4Button"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkable="true"
         android:text="@string/thursday"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/day3Checkbox" />
+        app:layout_constraintTop_toBottomOf="@id/day3Button"
+        app:layout_constraintWidth_default="wrap" />
 
-    <com.google.android.material.checkbox.MaterialCheckBox
-        android:id="@+id/day5Checkbox"
-        android:layout_width="wrap_content"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/day5Button"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:checkable="true"
         android:text="@string/friday"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/day4Checkbox" />
+        app:layout_constraintTop_toBottomOf="@id/day4Button"
+        app:layout_constraintWidth_default="wrap" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

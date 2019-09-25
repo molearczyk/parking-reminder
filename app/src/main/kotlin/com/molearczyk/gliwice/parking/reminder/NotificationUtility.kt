@@ -10,7 +10,6 @@ import androidx.core.app.NotificationManagerCompat
 
 class NotificationUtility {
 
-
     companion object {
         fun createNotificationIntent(context: Context) {
             createNotificationChannel(context)
@@ -41,11 +40,9 @@ class NotificationUtility {
             }
         }
 
-
         private const val CHANNEL_ID: String = "ParkingNotificationId"
         private const val DESTINATION_APP = "pl.mobilet.app"
         private const val APP_NOTIFICATION_ID = 543
     }
-
 
 }

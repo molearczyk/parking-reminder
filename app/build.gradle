@@ -35,6 +35,9 @@ dependencies {
     implementation "com.jakewharton.threetenabp:threetenabp:1.2.1"
 
     testImplementation 'junit:junit:4.12'
+    testImplementation ("org.threeten:threetenbp:1.4.0"){
+        exclude module: "com.jakewharton.threetenabp:threetenabp:1.2.1"
+    }
 
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'

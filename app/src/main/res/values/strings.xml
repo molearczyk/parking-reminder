@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">Parkingowa przypominajka</string>
+    <string name="app_name">Parking reminder for Gliwice</string>
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>
     <string name="wednesday">Wednesday</string>
     <string name="thursday">Thursday</string>
     <string name="friday">Friday</string>
-    <string name="saturday">Saturday</string>
-    <string name="sunday">Sunday</string>
+    <string name="location_tracker_checkbox">Remind about payment after stopping in the parking zone</string>
     <string name="notification_title">Notification</string>
     <string name="notification_content">It is the time to pay the parking fee today!</string>
     <string name="channel_name">Parking notifier</string>
     <string name="channel_description">Notifies when it is time to pay for the parking.</string>
+    <string name="days_reminder_prompt">Remind about parking a car in the zone in one of the upcoming days:</string>
 </resources>

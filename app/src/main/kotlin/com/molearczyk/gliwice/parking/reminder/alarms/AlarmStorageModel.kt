@@ -1,4 +1,4 @@
-package com.molearczyk.gliwice.parking.reminder
+package com.molearczyk.gliwice.parking.reminder.alarms
 
 import io.realm.RealmObject
 import org.threeten.bp.DayOfWeek
