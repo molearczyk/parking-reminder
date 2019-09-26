@@ -1,7 +1,8 @@
-package com.molearczyk.gliwice.parking.reminder
+package com.molearczyk.gliwice.parking.reminder.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.molearczyk.gliwice.parking.reminder.R
 import kotlinx.android.synthetic.main.activity_main.*
 import org.threeten.bp.DayOfWeek
 

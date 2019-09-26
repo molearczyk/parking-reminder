@@ -1,4 +1,4 @@
-package com.molearczyk.gliwice.parking.reminder
+package com.molearczyk.gliwice.parking.reminder.ui
 
 import android.content.Context
 import com.molearczyk.gliwice.parking.reminder.alarms.AlarmCalculator
