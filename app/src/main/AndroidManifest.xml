@@ -5,6 +5,9 @@
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
     <application
         android:name=".ParkingReminderApp"
         android:allowBackup="true"
@@ -36,6 +39,8 @@
         <receiver
             android:name=".AlarmReceiver"
             android:exported="false" />
+
+        <receiver android:name=".GeofenceParkingReceiver" />
 
     </application>
 

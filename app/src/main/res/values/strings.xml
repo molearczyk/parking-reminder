@@ -11,4 +11,5 @@
     <string name="channel_name">Parking notifier</string>
     <string name="channel_description">Notifies when it is time to pay for the parking.</string>
     <string name="days_reminder_prompt">Remind about parking a car in the zone in one of the upcoming days:</string>
+    <string name="geofence_error">Geofence encountered error!</string>
 </resources>

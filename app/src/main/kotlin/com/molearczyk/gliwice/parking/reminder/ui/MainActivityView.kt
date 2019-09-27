@@ -5,5 +5,6 @@ import org.threeten.bp.DayOfWeek
 interface MainActivityView {
 
     fun markAsEnabledFor(dayOfWeek: DayOfWeek)
+    fun geofencingActionFailed()
 
 }

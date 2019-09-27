@@ -12,4 +12,5 @@
     <string name="channel_description">Wysyła przypomnienia o konieczności zapłaty za parkowanie.</string>
     <string name="location_tracker_checkbox">Przypomnij o płatności w momencie zatrzymania w strefie parkowania.</string>
     <string name="days_reminder_prompt">Przypomnij o zostawieniu samochodu w strefie w najbliższym dniu tygodnia:</string>
+    <string name="geofence_error">Wystąpił błąd podczas modyfikacji bariery geograficznej.</string>
 </resources>
