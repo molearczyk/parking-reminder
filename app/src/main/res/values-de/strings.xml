@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parken in Gliwice</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="notification_content">Sie müssen für Parkplatz in Gliwice bezahlen.</string>
+    <string name="notification_title">Parkplatz Zahlen Erinnerung</string>
+    <string name="channel_name">Parkplatz Erinnerung</string>
+    <string name="channel_description">Es benachrichtigt, wenn es Zeit ist, für das Parken zu bezahlen.</string>
+    <string name="location_tracker_checkbox">Erinnern Sie über ein Bezahlen, nachdem Sie in der Parkzone angehalten haben</string>
+    <string name="days_reminder_prompt">Erinnern Sie über ein Bezahlen in die Tage:</string>
+</resources>
